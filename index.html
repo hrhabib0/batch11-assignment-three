@@ -11,46 +11,64 @@
 
 <body>
     <!-- Header and Banner Section Start -->
-    <header class="max-w-6xl mx-auto">
-        <!-- Navbar for desktop -->
-        <nav class="hidden sm:flex justify-between items-center py-4">
-            <div class="brand-logo">
-                <img src="./images/logo-header.png" alt="">
-            </div>
-            <div class="main-menu">
-                <ul class="flex gap-x-10 text-xl">
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
-            </div>
-            <div class="header-button-container flex gap-x-6 items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                </svg>
-                <button class="text-xl border-1 border-green-600 rounded-md px-8 py-2">Login</button>
-                <button class="text-xl text-white px-8 py-2 bg-green-600 rounded-md">Register</button>
-            </div>
-        </nav>
-        <!-- Navbar for mobile -->
-        <nav class="sm:hidden flex justify-between items-center p-4 border-1 border-green-600">
+    <section class="bg-linear-to-b from-white to-[#EFEBE3]">
+        <header class="max-w-6xl mx-auto">
+            <!-- Navbar for desktop -->
+            <nav class="hidden sm:flex justify-between items-center py-4">
+                <div class="brand-logo">
+                    <img src="./images/logo-header.png" alt="">
+                </div>
+                <div class="main-menu">
+                    <ul class="flex gap-x-10 text-xl">
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="header-button-container flex gap-x-6 items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                    <button class="text-xl border-1 border-green-600 rounded-md px-8 py-2">Login</button>
+                    <button class="text-xl text-white px-8 py-2 bg-green-600 rounded-md">Register</button>
+                </div>
+            </nav>
+            <!-- Navbar for mobile -->
+            <nav class="sm:hidden flex justify-between items-center p-4 border-1 border-green-600">
+                <div>
+                    <img src="./images/mobile logo.png" alt="">
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#00A63E" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00A63E" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg> 
+                </div>
+            </nav>
+    
+            <!-- banner section start -->
             <div>
-                <img src="./images/mobile logo.png" alt="">
+                <div class="w-3/4 sm:w-1/2 mx-auto mt-10">
+                    <h1 class="text-3xl sm:text-4xl text-[#111111] font-semibold text-center px-2">
+                        Freshness <span class="text-green-600">You Can <br>
+                        Count</span> On, Prices You’ll Love!
+                    </h1>
+                    <p class="text-sm sm:text-lg text-[#111111] text-center my-4">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+                </div>
+                <div class="sm:w-2/3 sm:mx-auto">
+                    <img src="./images/hero-vegetables.png" alt="" class="w-full">
+                </div>
             </div>
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="#00A63E" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00A63E" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  </svg> 
-            </div>
-        </nav>
-    </header>
+        </header>
+    </section>
+
+    
 </body>
 
 </html>
