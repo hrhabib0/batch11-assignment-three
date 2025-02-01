@@ -6,3 +6,8 @@
     font-weight: 400;
     font-style: normal;
   }
+
+
+  .feactures-product{
+    background-image: url('./images/vegetable-offer.png'), linear-gradient(to bottom right, #53DB3A, #FFFFFF);
+  }
